@@ -1,0 +1,141 @@
+.wrapper {
+  margin: 0 auto;
+  height: 100vh;
+  max-width: 540px;
+}
+
+.d-flex { display: flex }
+.d-block { display: block }
+.j-center { justify-content: center !important}
+.j-between { justify-content: space-between !important}
+.j-around { justify-content: space-around !important}
+.ais-center { align-items: center !important}
+.h-max-c { height: max-content }
+.w-max-c { width: max-content }
+
+.text-center { text-align: center }
+
+.w-100 { width: 100% } 
+.w-50 { width: 50% }
+
+.m-0 {}
+.m-1 { margin: .5em }
+.m-2 { margin: 1em }
+.mt-0 { margin-top: 0 }
+.mt-1 { margin-top: .5em }
+.mt-2 { margin-top: 1em }
+.mb-0 { margin-bottom: 0 }
+.mb-1 { margin-bottom: .5em }
+.mb-2 { margin-bottom: 1em }
+.mr-1 { margin-right: .5em }
+.ml-1 { margin-left: .5em }
+.my-1 { margin-top: .5em; margin-bottom: .5em; }
+.my-2 { margin-top: 1em; margin-bottom: 1em; }
+.mx-1 { margin-right: .5em; margin-left: .5em; }
+.mx-2 { margin-right: 1em; margin-left: 1em; }
+.mx-auto { margin-left: auto !important; margin-right: auto !important; }
+
+.p-1 { padding: .5em }
+.p-2 { padding: 1em }
+.pt-1 { padding-top: .5em }
+.pb-1 { padding-bottom: .5em }
+.py-1 { padding-top: .5em; padding-bottom: .5em; }
+.py-2 { padding-top: 1em; padding-bottom: 1em; }
+.px-1 { padding-left: 1em; padding-right: 1em; }
+.px-2 { padding-left: 1em; padding-right: 1em; }
+
+.border-top {border-top: 1px solid #D5D5D5;}
+.border-right {border-right: 1px solid #D5D5D5;}
+.border-bottom {border-bottom: 1px solid #D5D5D5;}
+.border-left {border-left: 1px solid #D5D5D5;}
+
+.btn-pink { 
+    /* background-color: #AC4CB7; */
+    background-color: #E7155D;
+     color: white; 
+}
+.btn-purple:hover { background-color: #781783; color: white; }
+.btn-grey { background-color: #C3C3C3; color: white; }
+.btn-grey:hover { background-color: #acacac; color: white; }
+
+/* menu */
+.menu {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: .5em;
+  margin: 0;
+}
+.menu li {
+  width: 30%;
+  padding: 5px;
+  display: inline;
+  text-align: center;
+  font-size: 8pt;
+}
+.menu li:hover {
+    background-color: whitesmoke;
+}
+.menu li img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+.menu li:not(:last-child) { border-right: 1px solid #DADADB; }
+.menu li.active { background-color: whitesmoke; color: #e21b62; }
+
+/* score prediction */
+.score-predic {
+    background-color: #DADADB;
+    padding: 1em;
+}
+.score-predic h3 {
+    /* color: #571E5F; */
+    color: #E7155D;
+    font-weight: bold;
+    font-size: 15pt;
+}
+.score-predic button {
+    font-size: 11pt;
+}
+
+/*prediction */
+.header { background-color: white }
+.header h3 {
+    color: #571E5F;
+    font-weight: bold;
+    font-size: 17pt;
+}
+.predic {
+    padding: 1em;
+    text-align: center;
+    background: url(../img/stadium.png) no-repeat, linear-gradient(to bottom, rgb(28, 51, 8), black);
+    background-size: contain, cover;
+    background-position: 0 0;
+}
+.predic .club-left, .predic .club-right { color: white }
+.predic .club-left .logo, .predic .club-right .logo { 
+    background-color: white;
+    padding: .5em;
+    border-radius: 50%;
+ }
+.predic .club-left img, .predic .club-right img { width: 145px; }
+.predic .mid { text-align: center; color: white; display: block; }
+.predic .mid .date {
+    background-color: #575757;
+    border: 1px solid white;
+    border-radius: 5px 5px 0 0;
+    font-size: 9pt;
+}
+.predic .mid .place {
+    background: transparent;
+    border: 1px solid white;
+    border-top: 0;
+    border-radius: 0 0 5px 5px;
+    font-size: 9pt;
+}
+.predic .card {
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    font-size: 12pt;
+}

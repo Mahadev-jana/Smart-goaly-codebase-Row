@@ -1,0 +1,12 @@
+.latest-news-slider > div > div.swiper-wrapper {
+    margin-bottom: 24px;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 0px !important;
+  
+}
+.swiper-pagination-bullet-active {
+    /* opacity: 1; */
+    background: #E7155D;
+}

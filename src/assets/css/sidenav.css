@@ -1,0 +1,83 @@
+body {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  max-width: 540px;
+  height: 100vh;
+  margin: 0 auto;
+}
+#sidenavmenu {
+  display: none!important;
+  height: 100%;
+  width: 100vw;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+}
+.sidenav {
+  /* background-color: #4d0653;
+  width: 280px;
+  height: 100%;
+  overflow-x: hidden; */
+  /* background-color: #4d0653!important; */
+  background-color: #0F7B30!important;
+  width: 100% !important;
+  height: 100%!important;
+  overflow-x: hidden!important;
+  padding: 0!important;
+}
+.sidenav .sidenav-header {
+  text-align: center;
+  /* background-color: #9c25a8; */
+  background-color: #A8D5B3; 
+    padding-top: 45px;
+    padding-left: 35px;
+    padding-right: 26px;
+}
+.sidenav .sidenav-header img {
+  width: 60px;
+}
+.sidenav .sidenav-header .closebtn {
+  float: right;
+  font-size: 36px;
+}
+.sidenav ul {
+  /* padding: 0; */
+  /* padding-top: 30px; */
+  background-color: #0F7B30;
+    margin: 0px;
+    text-align: left;
+}
+.sidenav ul li {
+  /* border-bottom: 1px solid #65156e; */
+  border-bottom: 1px solid #0F7B30;
+  padding: 0px 0;
+}
+.sidenav ul li:last-child {
+  border-bottom: 0;
+}
+.sidenav ul li:hover {
+  background-color: #2aa45b;
+}
+.sidenav ul li img {
+  width: 25px;
+  height: 25px;
+  margin-right: 1em;
+}
+.sidenav ul li a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 11pt;
+  color: white;
+  display: block;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav #language {
+  float: right;
+  margin-right: 1em;
+  padding-top: 2px;
+}

@@ -1,0 +1,22 @@
+div.scrollmenu {
+  background-color: #159b3e;
+  overflow: auto;
+  white-space: nowrap;
+  margin-bottom: -58px;
+  padding-bottom: 25px;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #159B3E;
+  }
+  .activeLeague{
+      display: none;
+  }
